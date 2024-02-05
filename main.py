@@ -8,7 +8,7 @@ import faiss
 import numpy as np
 import logging
 
-# Suppress warnings about unused weights
+# Убираем ворнинги из вывода терминала
 logging.getLogger("transformers.modeling_utils").setLevel(logging.ERROR)
 
 
