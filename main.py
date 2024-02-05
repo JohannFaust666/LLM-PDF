@@ -6,6 +6,11 @@ from transformers import AutoTokenizer, AutoModel, AutoModelForQuestionAnswering
 import torch
 import faiss
 import numpy as np
+import logging
+
+# Suppress warnings about unused weights
+logging.getLogger("transformers.modeling_utils").setLevel(logging.ERROR)
+
 
 # Скачивание PDF файла по url
 def download_and_extract_text(url):
