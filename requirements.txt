@@ -1,0 +1,7 @@
+faiss_cpu==1.7.4
+faiss_gpu==1.7.2
+numpy==1.26.3
+pdfminer.six==20221105
+Requests==2.31.0
+torch==2.2.0+cpu
+transformers==4.38.0.dev0
